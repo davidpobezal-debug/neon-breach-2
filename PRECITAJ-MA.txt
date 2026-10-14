@@ -1,0 +1,28 @@
+NEON BREACH – POKRAČOVANIE / MARS
+Pracovná verzia upravená 14. 10. 2026
+
+SPUSTENIE
+Otvor index.html v Chrome alebo Edge. Na webhosting alebo GitHub Pages stačí nahrať tento index.html. Herná grafika, štýly a kód sú v súbore; webové písmo je voliteľné a bez pripojenia sa nahradí miestnym písmom.
+
+Môžeš hrať od prebudenia alebo v menu použiť „MARS – ZAČAŤ SKOKOM OD KOKPITU“. Skratka preskočí pôvodné úlohy na lodi a začne pri pripravenom navigačnom paneli. Prepíše iba zvolený slot tohto pokračovania; upozornenie je priamo pri tlačidle. Pred použitím môžeš vybrať prázdny slot.
+
+ČO SA ZMENILO
+- Mars: výraznejšie skalné vrstvy, samostatné výbežky mimo trasy, drobné kamene, jasnejšie slnečné svetlo, menej rušivá kresba prachu.
+- Lander KESTREL-2: šikmé pancierové plochy, členenie okna, modrasté sklo, pripevnené servisné panely, skrutky a vetracie mriežky. Pri parkovaní motory nežiaria ako zapálené rakety.
+- Kokpit landera: tri čitateľné displeje, ovládače, konštrukčné rebrá, bezpečnostné pásy a modré osvetlenie. Povrch za oknom zostáva osvetlený slnkom.
+- ARES-3: orámovanie a detaily vstupu, displej, servisné označenia, vnútorné modré svetlá, regály a pracovný pult. Kyslíkový servis má viditeľný rozvod na stene.
+- Vrak SURVEY-04: potrhané plechy, káble a technické detaily. Jeho terminál obsahuje nepovinný záznam, ktorý vysvetľuje jeho spojenie so skladom.
+- Príbeh: plánovaná servisná zastávka pri Marse; poškodený stabilizátor vydrží krátky skok, ale priamy návrat by nezvládol. Lander má nezávislý pohon. Roboty skladu riadi miestny uzol AEGIS, ktorý vyhodnocuje karanténny príznak ARGO-09. Po výmene dielu sa dá pokračovať na LYRU.
+- Opravené drobné textové chyby vrátane „pristávacích nôh“.
+
+ULOŽENIA
+Pokračovanie má vlastné tri sloty aj rekordy. Pri prvom spustení môže prekopírovať kompatibilné uloženia zo starej verzie v tom istom prehliadači a na tej istej webovej adrese. Pôvodné uloženia neprepisuje. Uloženia sa neprenášajú medzi prehliadačmi ani medzi rôznymi adresami.
+
+OVLÁDANIE
+WASD – pohyb; myš – pohľad a streľba; E – použiť; drž E – zváranie; R – prebiť; 1/2 – zbraň; Q – EMP; M – stav lode; J – denník; ESC – pauza.
+Na mobile sa zobrazí joystick a dotykové tlačidlá. Rozlíšenie a ovládanie vychádzajú z dodanej verzie. Otoč telefón na šírku.
+
+OVERENIE
+Automatická kontrola celej marsovskej úlohy vrátane zostupu, dosiahnuteľnosti pracovných miest, kyslíka, boja, prenesenia dielu, uloženia/obnovenia, vzletu, montáže a odletu. Samostatne skontrolované sloty, import starého uloženia, zachovanie pôvodných uložených dát a mobilné rozloženie v piatich veľkostiach na šírku a jednej na výšku. Kontrola obrazu sa vykonala v Chrome so softvérovým WebGL; nejde o meranie výkonu na skutočnom telefóne.
+
+Pôvodný súbor outputs/FINALNA-HRA/index.html ani pôvodný ZIP neboli zmenené. Všetko je pripravené ako samostatné pokračovanie. Konceptové obrázky určujú výtvarný smer; grafika zostáva súčasťou jednoduchého retro WebGL enginu.

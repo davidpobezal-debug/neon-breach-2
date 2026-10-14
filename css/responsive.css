@@ -1,0 +1,25 @@
+/* v4 responsive layer. Loaded after style.css; nothing here changes windows taller than 760 px. */
+
+/* The weapon overlay is drawn at 16:9. Keep that shape in any window instead of stretching it
+   (touch-mode already did this). 16:9 windows look exactly as before. */
+#weaponview{object-fit:contain;object-position:center bottom}
+/* The flight flash is a full-screen fill on the same canvas, so it still has to cover the window. */
+.flying #weaponview{object-fit:fill}
+
+/* Low desktop windows (taller windows are untouched): the centred bottom messages share one band and
+   used to overlap. Boss bar stays where it is; the comm message moves above it when a boss bar shows,
+   and the interaction prompt moves above the comm message when one is on screen. */
+@media(max-height:760px){
+ html:not(.touch-mode) #hud:has(#bossbar:not(.hidden)) #comm{bottom:214px}
+ html:not(.touch-mode) #hud:has(#comm:not(:empty)) #interaction{bottom:256px}
+ html:not(.touch-mode) #hud:has(#bossbar:not(.hidden)):has(#comm:not(:empty)) #interaction{bottom:280px}
+}
+/* Very low windows: the airlock readout used to sit on top of a two-line objective. */
+@media(max-height:660px){
+ html:not(.touch-mode) #airlockStatus{top:calc(24% + 44px)}
+}
+/* Minimum-height windows: the tutorial/guide box shrinks a little so it does not meet the comm message. */
+@media(max-height:620px){
+ html:not(.touch-mode) #guide{padding:11px 16px}
+ html:not(.touch-mode) #guide p{margin-top:6px;line-height:1.6}
+}

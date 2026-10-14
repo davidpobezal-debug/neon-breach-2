@@ -1,0 +1,24 @@
+NEON BREACH – PRÍBEH ROZŠÍRENEJ KAMPANE
+
+Alex Renn zostal po poškodení kryoboxu sám na ARGO-09 pri Saturne. AEGIS evakuovala 12 evidovaných členov posádky záchranným modulom na domovskú stanicu LYRA. Alexa nevidela v manifeste a jeho pohyb považuje za porušenie karantény.
+
+Alex porazí robotov, odstaví poškodený reaktor a obnoví napájanie i obe vetvy chladenia záložného pohonu. V kokpite obnoví spojenie s Mirou na LYRE. Jaro z telemetrie zistí, že pravý stabilizátor nezvládne priamy návrat. Naplánujú krátky skok k Marsu, kde automatický sklad ARES-3 eviduje kompatibilný diel.
+
+Skok na obežnú dráhu Marsu sa podarí, stabilizátor však definitívne zlyhá. ARGO-09 zostáva bezpečne na orbite. Dvojmiestny lander KESTREL-2 má nezávislý pohon; Alex doň nastúpi zo servisnej lávky, zostúpi a pristane pri sklade.
+
+Na povrchu potrebuje uzavretý skafander. Cez skalnatý priechod a most prejde k ARES-3. Zváračkou obnoví prívod v rozvodnej skrinke na východnej stene. Otvoria sa dvere, ale miestny uzol AEGIS prevezme karanténny príznak z majáka ARGO-09 a odmietne jeho oprávnenie. Roboty skladu sa aktivujú.
+
+Po boji Alex odreže pásy prepravnej klietky a vezme náhradný stabilizátor. Vráti sa landerom na loď, odstráni vypálený diel z konzoly na servisnej lávke, zasadí náhradný a zvarí upevnenie. Po návrate cez komoru odloží skafander a v kokpite prepočíta kurz na LYRU. Až opravený pohon umožní druhý skok domov.
+
+Nepovinný vrak SURVEY-04 vysvetľuje, čo sa stalo pri poslednej búrke. Posádka transportéra bola zachránená; jeho motor je nepoužiteľný. Funkčný náhradný diel bol uložený do ARES-3 ešte pred evakuáciou. Vrak nepridáva ďalšiu povinnú úlohu.
+
+AKTUÁLNE ZÁZNAMY
+
+ARES-3 / SKLADOVÝ DENNÍK
+ARES-3 je automatický zásobovací sklad pre lode triedy ARGO. Posádka ho po poslednej prachovej búrke opustila; dohľad zabezpečuje miestny uzol siete AEGIS. Maják ARGO-09 stále vysiela karanténny príznak. Uzol preto neuznáva tvoje servisné oprávnenie a po obnovení napájania aktivuje ochranu zásob. Núdzový prívod otvoril dvere, bezpečnostný okruh však zostal nezávislý. Evidencia: 1 náhradný stabilizátor záložného pohonu, v prepravnej klietke pri severnej stene. Diel je zaistený pásmi, ktoré treba odrezať zváračkou. Servisný rozvod kyslíka dopĺňa zásobu v uzavretom skafandri. Povrch Marsu je nedýchateľný; prilbu neotváraj.
+
+KOKPIT / VÝPADOK POHONU · MARS
+Krátky skok na plánovanú servisnú zastávku je dokončený. Pravý stabilizátor záložného pohonu pri ukončení skoku definitívne zlyhal; bezpečnostná poistka pohon odstavila na obežnej dráhe Marsu. Priamy návrat na LYRU by nezvládol. Logistický archív potvrdzuje náhradný diel v sklade ARES-3. Pristávací modul KESTREL-2 je pripojený na konci servisnej lávky a má vlastné nezávislé motory. Vezmi skafander aj zváračku, prejdi komorou a nastúp do modulu. Po návrate vymeň stabilizátor na lávke a prepočítaj kurz na LYRU.
+
+SURVEY-04 / POSLEDNÝ SERVISNÝ ZÁZNAM
+Prieskumný transportér SURVEY-04 bol počas búrky zatlačený do skalnej steny. Posádka stihla odísť do ARES-3 a neskôr bola vyzdvihnutá zásobovacou loďou. Motor vo vraku je prasknutý a pre ARGO-09 nepoužiteľný. Nepoškodený náhradný stabilizátor bol ešte pred evakuáciou uložený do skladu ARES-3. Prepravná klietka chráni diel pred prachom. Núdzový prívod skladu je na východnej stene.

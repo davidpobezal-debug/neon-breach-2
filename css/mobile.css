@@ -1,0 +1,40 @@
+/* v4 phone layout (landscape touch mode only). Loaded last. Desktop and portrait are not touched.
+   Zones on a phone in landscape:
+     left column   objective, progress, location, guide (ends above the move pad); health sits beside the move pad
+     centre        crosshair in the middle; messages (comm) below it; interaction prompt and oxygen at the bottom
+     top centre    boss bar (it used to sit on the crosshair)
+     right column  score, EMP, ammo, buttons */
+@media(orientation:landscape){
+ html.touch-mode #game{--m-pad:clamp(104px,19vmin,138px);--m-pad-bottom:16px;--m-guide-top:calc(121px + var(--mobile-safe-top));--m-h:var(--mobile-height,100dvh)}
+
+ /* Health next to the move pad instead of above it, so the guide has room and they never meet. */
+ html.touch-mode .health{bottom:calc(var(--m-pad-bottom) + var(--mobile-safe-bottom));left:calc(22px + var(--m-pad) + var(--mobile-safe-left))}
+
+ /* Guide: narrower column on the left, ends above the move pad and scrolls when the text is long. */
+ html.touch-mode #guide{width:min(260px,36vw,calc(100% - 28px - var(--mobile-safe-left) - var(--mobile-safe-right)));max-height:max(48px,min(calc(var(--m-h) - var(--m-guide-top) - var(--m-pad-bottom) - var(--m-pad) - 10px - var(--mobile-safe-bottom)),calc(var(--m-h) / 2 + 12px - var(--m-guide-top))))}
+
+ /* Comm message: under the crosshair, above the interaction prompt. */
+ html.touch-mode #comm{bottom:auto;top:calc(50% + 18px);max-height:max(30px,calc(var(--m-h) / 2 - 136px));width:min(560px,calc(100% - 2 * (var(--m-pad) + 40px) - var(--mobile-safe-left) - var(--mobile-safe-right)))}
+ html.touch-mode #interaction{bottom:calc(78px + var(--mobile-safe-bottom))}
+ /* Compact oxygen panel (about 52 px high) so the prompt and the comm message fit above it. */
+ html.touch-mode #oxygen{padding:4px 8px}html.touch-mode .oxygenTrack{margin:4px 0}
+
+ /* Boss bar: top centre, clear of the crosshair, the objective (starts at y 51) and the header buttons. */
+ html.touch-mode #hud #bossbar{bottom:auto;top:calc(8px + var(--mobile-safe-top));width:min(300px,34vw)}
+
+ /* Short notices sit in the free space right of the guide column. */
+ html.touch-mode #notice{top:max(26%,calc(100px + var(--mobile-safe-top)));left:calc(50% + 100px + var(--mobile-safe-left) / 2 - var(--mobile-safe-right) / 2);max-width:min(60%,calc(100% - 420px));}
+}
+@media(max-height:360px) and (orientation:landscape){
+ html.touch-mode #game{--m-pad:96px;--m-pad-bottom:12px;--m-guide-top:calc(115px + var(--mobile-safe-top))}
+}
+/* Very small phones (about 320 px high): the comm box is hidden there, so notices use its place under the crosshair
+   and the right column is squeezed (EMP status next to the score, no weapon name above the ammo count). */
+@media(max-height:340px) and (orientation:landscape){
+ html.touch-mode #notice{top:calc(50% + 14px);left:calc((100% + var(--mobile-safe-left) - var(--mobile-safe-right)) / 2);max-width:min(60%,calc(100% - 28px - var(--mobile-safe-left) - var(--mobile-safe-right)))}
+ html.touch-mode #empStatus{top:calc(101px + var(--mobile-safe-top));right:calc(62px + var(--mobile-safe-right))}
+ html.touch-mode .health{left:calc(18px + var(--m-pad) + var(--mobile-safe-left))}
+ html.touch-mode #oxygen{max-width:24vw}
+ html.touch-mode #weaponname,html.touch-mode #touchLookHint{display:none}
+ html.touch-mode .ammo{bottom:calc(112px + var(--mobile-safe-bottom))}
+}
